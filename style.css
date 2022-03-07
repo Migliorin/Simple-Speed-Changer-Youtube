@@ -1,0 +1,30 @@
+.twoTimesButton{
+    z-index: 24;
+    position: relative;
+    opacity: 0.05;
+    transition: visibility 0s, opacity 0.3s linear;
+    background-color: rgb(27, 19, 19);
+    display: inline-block;
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.twoTimesButton:hover{
+    opacity: 1;
+}
+
+.twoTimesButton button{
+    margin: 5px;
+    width: 30px;
+    border-radius: 2px;
+    font-size: smaller;
+}
+
+.twoTimesButton p{
+    display: inline-block;
+    color: white;
+    width: 25px;
+    margin: 5px;
+    text-align: center;
+}
